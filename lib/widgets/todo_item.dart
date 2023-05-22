@@ -36,7 +36,9 @@ class ToDoItem extends StatelessWidget {
               decoration: todo.isDone ? TextDecoration.lineThrough : null),
         ),
         trailing: IconButton(
-          onPressed: () {},
+          onPressed: () {
+            onDeleteItem(todo.id);
+          },
           icon: const Icon(Icons.delete),
           color: tdRed,
         ),
