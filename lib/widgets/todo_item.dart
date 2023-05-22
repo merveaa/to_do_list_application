@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_list_application/constants/colors.dart';
 
-import '../model/ToDo.dart';
+import '../model/todo.dart';
 
 class ToDoItem extends StatelessWidget {
   final ToDo todo;
